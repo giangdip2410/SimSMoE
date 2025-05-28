@@ -1,0 +1,6 @@
+/datasets
+**/*.pt*
+**/*.out
+
+**/__pycache__
+**/wandb
