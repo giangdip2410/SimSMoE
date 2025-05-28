@@ -50,21 +50,26 @@ data_folder/
 
 ## Citation
 
-@inproceedings{do-etal-2025-simsmoe,
-    title = "{S}im{SM}o{E}: Toward Efficient Training Mixture of Experts via Solving Representational Collapse",
-    author = "Do, Giang  and
-      Le, Hung  and
-      Tran, Truyen",
-    editor = "Chiruzzo, Luis  and
-      Ritter, Alan  and
-      Wang, Lu",
-    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
-    month = apr,
-    year = "2025",
-    address = "Albuquerque, New Mexico",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2025.findings-naacl.107/",
-    pages = "2012--2025",
-    ISBN = "979-8-89176-195-7",
-    abstract = "Sparse mixture of experts (SMoE) have emerged as an effective approach for scaling large language models while keeping a constant computational cost. Regardless of several notable successes of SMoE, effective training such architecture remains elusive due to the representation collapse problem, which in turn harms model performance and causes parameter redundancy. In this work, we present Similarity-based Sparse Mixture of Experts (SimSMoE), a novel similarity of neural network algorithm, that guarantees a solution to address the representation collapse issue between experts given a fixed FLOPs budget. We conduct extensive empirical evaluations on three large language models for both Pre-training and Fine-tuning tasks to illustrate the efficacy, robustness, and scalability of our method. The results demonstrate that SimSMoE significantly enhances existing routing policy and outperforms other SMoE routing methods in performance for the tasks. Our implementation is publicly available at https://github.com/giangdip2410/SimSMoE."
-}
+If you use SimSMoE in your research, please cite our paper:
+
+> Giang Do, Hung Le, and Truyen Tran. 2025.  
+> **SimSMoE: Toward Efficient Training Mixture of Experts via Solving Representational Collapse.**  
+> In *Findings of the Association for Computational Linguistics: NAACL 2025*, pages 2012–2025, Albuquerque, New Mexico. Association for Computational Linguistics.  
+> [https://aclanthology.org/2025.findings-naacl.107/](https://aclanthology.org/2025.findings-naacl.107/)  
+> ISBN: 979-8-89176-195-7
+>
+> ```
+> @inproceedings{do-etal-2025-simsmoe,
+>   title = "{S}im{SM}o{E}: Toward Efficient Training Mixture of Experts via Solving Representational Collapse",
+>   author = "Do, Giang and Le, Hung and Tran, Truyen",
+>   editor = "Chiruzzo, Luis and Ritter, Alan and Wang, Lu",
+>   booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+>   month = apr,
+>   year = "2025",
+>   address = "Albuquerque, New Mexico",
+>   publisher = "Association for Computational Linguistics",
+>   url = "https://aclanthology.org/2025.findings-naacl.107/",
+>   pages = "2012--2025",
+>   ISBN = "979-8-89176-195-7"
+> }
+> ```
